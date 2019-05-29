@@ -10,7 +10,7 @@
 |Grep questions| 15 mins|
 |Regex, using grep| 20 mins, Christopher|
 |Regex questions| 15 mins|
-|[CLI tools like Pandoc](#Pandoc)| 10 mins, Christopher|
+|[CLI tool for document conversion: Pandoc](#Pandoc)| 10 mins, Christopher|
 
 ### Bits and Bytes
 
