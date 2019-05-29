@@ -33,7 +33,7 @@ Make sure you have downloaded Git (https://git-scm.com/book/en/v2/Getting-Starte
 
 - **the CLI tools we use most** are **navigation, conversion, and system debugging**... 
 
-- **navigation:
+- **navigation:**
 
 `cd`
 `pwd`
