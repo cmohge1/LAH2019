@@ -36,8 +36,11 @@ Make sure you have downloaded Git (https://git-scm.com/book/en/v2/Getting-Starte
 - **navigation:**
 
 `cd`
+
 `pwd`
+
 `mkdir`
+
 `echo`
 
 
