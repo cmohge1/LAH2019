@@ -35,13 +35,13 @@ Make sure you have downloaded Git (https://git-scm.com/book/en/v2/Getting-Starte
 
 - **navigation:**
 
-`cd`
+-- `cd`
 
-`pwd`
+-- `pwd`
 
-`mkdir`
+-- `mkdir`
 
-`echo`
+-- `echo`
 
 
 2. Exercise: Get a copy of this repository.
