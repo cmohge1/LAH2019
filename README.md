@@ -50,7 +50,7 @@ Most pandoc operations look like the above. There are more precise ways to guide
 
 ```pandoc README.md -f markdown -t html -s -o README.html```
 
-works like a charm, for the most part. The -f options specifies that you are converting from markdown syntax, and -t says that you are converting to html. The -s option specifies that it is a standalone file with a proper html header. In most cases, however, pandoc only needs the file extension to guide the conversion, which is why the -o option is all you need in most cases. But sometimes you do need more precision, such as with PDF conversions^[note that you’ll need to have LaTeX installed. See MacTeX on OS X, MiKTeX on Windows, or install the texlive package in linux].
+works like a charm, for the most part. The -f options specifies that you are converting from markdown syntax, and -t says that you are converting to html. The -s option specifies that it is a standalone file with a proper html header. In most cases, however, pandoc only needs the file extension to guide the conversion, which is why the -o option is all you need in most cases. But sometimes you do need more precision, such as with PDF conversions (note that you’ll need to have LaTeX installed. See MacTeX on OS X, MiKTeX on Windows, or install the texlive package in linux).
 
 ```pandoc README.md -o README.pdf```
 
