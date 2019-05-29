@@ -82,7 +82,9 @@ What happens here?
 
 Try this instead:
 
-```pandoc README.md --pdf-engine=xelatex -o README.pdf```
+```pandoc -N --template=template.tex --variable mainfont="Palatino" --variable sansfont="Helvetica" --variable monofont="Menlo" --variable fontsize=12pt --variable version=2.0 README.md --toc -o README.pdf```
+
+What has changed?
 
 I have already extolled the virtues of Markdown, and I hope you can see that you can use Pandoc to easily convert files from Markdown.
 
