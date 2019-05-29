@@ -14,7 +14,11 @@
 
 ### Bits and Bytes
 
+[See Marty's slides]
+
 ### Command Line
+
+For a very good (and broad) overview of command line tools, see https://github.com/jlevy/the-art-of-command-line.
 
 ### Grep
 
