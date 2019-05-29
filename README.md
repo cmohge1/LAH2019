@@ -1,5 +1,8 @@
-# LAHP2019
-"Working with Texts," part II: 30 May 2019.
+# LAHP2019: "Working with Texts," part II: 30 May 2019.
+
+Martin Steer (School of Advanced Study)
+Jonathan Blaney (Institute of Historical Research)
+Christopher Ohge (Institute of English Studies)
 
 ## Outline for the day 
 |Topic |Time |
