@@ -22,7 +22,9 @@
 
 2. Get a copy of this repository.
 
-- using the `git clone` function.
+- use the `git clone` function. 
+
+`git clone`
 
 For a very good (and broad) overview of command line tools, see https://github.com/jlevy/the-art-of-command-line.
 
