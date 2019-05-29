@@ -3,7 +3,7 @@
 
 ## Outline for the day 
 
-|--|--|
+|--:|--:|
 |Introduction to bits, bytes, encoding etc:|      30 mins, Marty|
 |Intro the CLI: principles, navigations:|             15 mins, Christopher|
 |Grep|                                                                15 mins Jonathan|
