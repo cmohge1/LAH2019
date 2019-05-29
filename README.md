@@ -18,13 +18,35 @@
 
 ### Command Line
 
-1. Make sure you have downloaded Git (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+Make sure you have downloaded Git (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-2. Get a copy of this repository.
+1. What are command line tools, why do we use them, and which do we use most?
+
+- **command line tools** are ... They are based on "standard" Unix commands, but also include other commands from downloadable packages (e.g., Git and Pandoc).
+
+- **we use CLI tools** to hack our system, to have full control ...
+
+- **the CLI tools we use most** are **navigation, conversion, and system debugging**... 
+
+- **navigation:
+
+`cd`
+`pwd`
+`mkdir`
+`echo`
+
+
+2. Exercise: Get a copy of this repository.
+
+- start with `cd` + ENTER.
+
+- make a new directory called "gitspace"
+
+- navigate to the gitspace directory
 
 - use the `git clone` function. 
 
-`git clone`
+`git clone https://github.com/cmohge1/LAHP2019.git`
 
 For a very good (and broad) overview of command line tools, see https://github.com/jlevy/the-art-of-command-line.
 
@@ -57,6 +79,10 @@ works like a charm, for the most part. The -f options specifies that you are con
 ```pandoc README.md -o README.pdf```
 
 What happens here?
+
+Try this instead:
+
+```pandoc README.md --pdf-engine=xelatex -o README.pdf```
 
 I have already extolled the virtues of Markdown, and I hope you can see that you can use Pandoc to easily convert files from Markdown.
 
