@@ -11,10 +11,10 @@ Christopher Ohge (Institute of English Studies)
 |--:|--:|
 |[Introduction to bits, bytes, encoding etc](#Bits-and-Bytes) | 30 mins, Marty|
 |[Intro the CLI: principles, navigations](#Command-Line) | 15 mins, Christopher|
-|[Grep](#Grep) | 15 mins, Jonathan|
-|Grep questions| 15 mins|
-|[Regex, using grep](#Regular-Expressions(RegEx))| 20 mins, Christopher|
+|[Regex](#Regular-Expressions(RegEx))| 20 mins, Christopher|
 |Regex questions| 15 mins|
+|[Grep and regex](#Grep) | 15 mins, Jonathan|
+|Grep questions| 15 mins|
 |[CLI tool for document conversion: Pandoc](#Pandoc)| 10 mins, Christopher|
 
 ### Bits and Bytes
