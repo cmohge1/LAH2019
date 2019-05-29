@@ -11,7 +11,7 @@ Christopher Ohge (Institute of English Studies)
 |--:|--:|
 |[Introduction to bits, bytes, encoding etc](#Bits-and-Bytes) | 30 mins, Marty|
 |[Intro the CLI: principles, navigations](#Command-Line) | 15 mins, Christopher|
-|[Regex](#Regular-Expressions(RegEx))| 20 mins, Christopher|
+|[Regex](#Regular-Expressions)| 20 mins, Christopher|
 |Regex questions| 15 mins|
 |[Grep and regex](#Grep) | 15 mins, Jonathan|
 |Grep questions| 15 mins|
@@ -55,7 +55,15 @@ For a very good (and broad) overview of command line tools, see https://github.c
 
 ### Grep
 
-### Regular Expressions (RegEx)
+See the grep basics sheet (here)[/grep-basics-sheet.pdf].
+
+### Regular Expressions 
+
+(AKA regex)
+
+The best way to learn regex is to experiment with one of the online tools. But let's copy-and-paste some text from the Billy Budd directory. Now, let's go to [Regex101](https://regex101.com/).
+
+For more information, see this [regex cheat sheet](https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285).
 
 ### Pandoc
 
