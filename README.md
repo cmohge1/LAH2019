@@ -96,7 +96,17 @@ For a very good (and broad) overview of command line tools, see https://github.c
 
 The best way to learn regex is to experiment with one of the online tools. But let's copy-and-paste the xml file from the Billy Budd/diplomatic directory. Then go to [Regex101](https://regex101.com/).
 
-For more information, see this [regex cheat sheet](https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285).
+Make sure to consult this [regex cheat sheet](https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285).
+
+Practice:
+
+1. Find any instance of "don't" or "do'nt".
+
+2. Find the first word at the beginning of each speech.
+
+2. What two regexs would you use to get ride of the choice tags and only show the original spellings (contained within the <orig> tags)?
+    
+3. Find all attribute values of page image zones (hint: they are the value of @facs attributes).
 
 ### Grep
 
