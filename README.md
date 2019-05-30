@@ -102,9 +102,17 @@ Practice:
 
 1. Find any instance of "don't" or "do'nt".
 
+    Answer: do(n'|'n)t
+
 2. Find the first word at the beginning of each speech.
 
+    Answer: "[A-Z].+?\b
+
 2. What two regexs would you use to get ride of the choice tags and only show the original spellings (contained within the <orig> tags)?
+    
+    Answer: <choice.*?<reg>.*?<orig>
+    
+    <\/reg.*<\/choice>
     
 3. Find all attribute values of page image zones (hint: they are the value of @facs attributes).
 
