@@ -53,12 +53,15 @@ Make sure you have downloaded Git (https://git-scm.com/book/en/v2/Getting-Starte
     - `iconv`
     - `grep`
     - To locate a file by name in the current directory, `find . -iname 'NAME'`
-    - `awk`
-    - `sed`
+    - `awk` (line by line processing)
+    - `sed` (searching and replacing)
     
 - **debugging** is important, but we won't have time to do this justice.
     
 - Want to learn more? Enter `man bash` into your Terminal window.
+
+For a very good (and broad) overview of command line tools, see https://github.com/jlevy/the-art-of-command-line.
+
 
 2. Exercise: Get a copy of this repository.
 
@@ -79,21 +82,25 @@ Make sure you have downloaded Git (https://git-scm.com/book/en/v2/Getting-Starte
 
 - make a new directory called "gitspace"
 
-- navigate to the gitspace directory
+- navigate to the gitspace directory, then to "LAHP2019".
 
-For a very good (and broad) overview of command line tools, see https://github.com/jlevy/the-art-of-command-line.
+- naviagte to the Billy Budd folders, and create a new folder called "diplomatic".
 
-### Grep
+- move the file "ch1-leaf.xml" to "diplomatic".
 
-See the grep basics sheet (here)[/grep-basics-sheet.pdf].
+- use `head` -- what do you see?
 
 ### Regular Expressions 
 
 (AKA regex)
 
-The best way to learn regex is to experiment with one of the online tools. But let's copy-and-paste some text from the Billy Budd directory. Then go to [Regex101](https://regex101.com/).
+The best way to learn regex is to experiment with one of the online tools. But let's copy-and-paste the xml file from the Billy Budd/diplomatic directory. Then go to [Regex101](https://regex101.com/).
 
 For more information, see this [regex cheat sheet](https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285).
+
+### Grep
+
+See the grep basics sheet (here)[/grep-basics-sheet.pdf].
 
 ### Pandoc
 
