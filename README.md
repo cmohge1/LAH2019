@@ -19,7 +19,7 @@ Christopher Ohge (Institute of English Studies)
 
 ### Bits and Bytes
 
-[See Marty's slides](LAHP)
+[See Marty's slides](https://github.com/cmohge1/LAHP2019/blob/master/LAHP%202018%20Wk%204%20Working%20with%20Text.pdf).
 
 ### Command Line
 
@@ -27,7 +27,7 @@ Make sure you have downloaded Git (https://git-scm.com/book/en/v2/Getting-Starte
 
 1. What are command line tools, why do we use them, and which do we use most?
 
-- **command line tools** are ... They are based on "standard" Unix commands, but also include other commands from downloadable packages (e.g., Git and Pandoc).
+- **command line tools** are based on "standard" Unix commands, but also include other commands from downloadable packages (e.g., Git and Pandoc).
 
 - generally, **we use CLI tools** to hack our system, to have full control ...
 
@@ -53,6 +53,10 @@ Make sure you have downloaded Git (https://git-scm.com/book/en/v2/Getting-Starte
     - `iconv`
     - `grep`
     - To locate a file by name in the current directory, `find . -iname 'NAME'`
+    - `awk`
+    - `sed`
+    
+- **debugging** is important, but we won't have time to do this justice.
     
 - Want to learn more? Enter `man bash` into your Terminal window.
 
@@ -77,8 +81,6 @@ Make sure you have downloaded Git (https://git-scm.com/book/en/v2/Getting-Starte
 
 - navigate to the gitspace directory
 
-
-
 For a very good (and broad) overview of command line tools, see https://github.com/jlevy/the-art-of-command-line.
 
 ### Grep
@@ -89,7 +91,7 @@ See the grep basics sheet (here)[/grep-basics-sheet.pdf].
 
 (AKA regex)
 
-The best way to learn regex is to experiment with one of the online tools. But let's copy-and-paste some text from the Billy Budd directory. Now, let's go to [Regex101](https://regex101.com/).
+The best way to learn regex is to experiment with one of the online tools. But let's copy-and-paste some text from the Billy Budd directory. Then go to [Regex101](https://regex101.com/).
 
 For more information, see this [regex cheat sheet](https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285).
 
