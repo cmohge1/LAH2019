@@ -19,7 +19,7 @@ Christopher Ohge (Institute of English Studies)
 
 ### Bits and Bytes
 
-[See Marty's slides]
+[See Marty's slides](LAHP)
 
 ### Command Line
 
@@ -29,17 +29,47 @@ Make sure you have downloaded Git (https://git-scm.com/book/en/v2/Getting-Starte
 
 - **command line tools** are ... They are based on "standard" Unix commands, but also include other commands from downloadable packages (e.g., Git and Pandoc).
 
-- **we use CLI tools** to hack our system, to have full control ...
+- generally, **we use CLI tools** to hack our system, to have full control ...
 
-- **the CLI tools we use most** are **navigation, conversion, and system debugging**... 
+- **the CLI tools we use most** are **navigation, conversion, and system debugging**...
+
+- use **Tab** to complete arguments or list all available commands. 
+
+- use **ctrl+r** to search through command history.
 
 - **navigation:**
     - `cd`
+    - `.` and `..`
     - `pwd`
+    - `ls`
+    - `mv`
     - `mkdir`
     - `echo`
+    - `less`
+    - `head`
+    - `tail`
+    
+- **conversion**
+    - `iconv`
+    - `grep`
+    - To locate a file by name in the current directory, `find . -iname 'NAME'`
+    
+- Want to learn more? Enter `man bash` into your Terminal window.
 
 2. Exercise: Get a copy of this repository.
+
+- Navigate to this repo (https://github.com/cmohge1/LAHP2019).
+
+- click on the green button that says "clone or download".
+
+- IF you have a GitHub account,
+    - open your terminal, enter `cd ~/Desktop`
+    - use the `git clone` function. 
+    - `git clone https://github.com/cmohge1/LAHP2019.git`
+
+- IF YOU DO NOT have a GitHub account, download the zip of the repo to your Desktop.
+
+- in the Terminal, enter `pwd`.
 
 - start with `cd` + ENTER.
 
@@ -47,9 +77,7 @@ Make sure you have downloaded Git (https://git-scm.com/book/en/v2/Getting-Starte
 
 - navigate to the gitspace directory
 
-- use the `git clone` function. 
 
-`git clone https://github.com/cmohge1/LAHP2019.git`
 
 For a very good (and broad) overview of command line tools, see https://github.com/jlevy/the-art-of-command-line.
 
