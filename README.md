@@ -118,7 +118,7 @@ Practice:
 
 ### Grep
 
-See the grep basics sheet (here)[/grep-basics-sheet.pdf].
+See the grep basics sheet [here](/grep-basics-sheet.pdf).
 
 ### Pandoc
 
